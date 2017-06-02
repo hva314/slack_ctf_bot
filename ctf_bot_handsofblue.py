@@ -71,8 +71,8 @@ def parse_slack_output(slack_rtm_output):
     return None, None
 
 # starterbot's ID as an environment variable
-BOT_ID = "U5GPQHSS2" 
-BOT_TOKEN = "xoxb-186806604886-fPXUChtMjUrCBnQqVpU7wl36"
+BOT_ID = "xxxxxxxxx" 
+BOT_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
 EXAMPLE_COMMAND = "schedule"
