@@ -56,11 +56,6 @@ def print_schedule():
     return "```" + table.draw() + "```"
 
 def parse_slack_output(slack_rtm_output):
-    """
-        The Slack Real Time Messaging API is an events firehose.
-        this parsing function returns None unless a message is
-        directed at the Bot, based on its ID.
-    """
     output_list = slack_rtm_output
     if output_list and len(output_list) > 0:
         for output in output_list:
@@ -71,8 +66,8 @@ def parse_slack_output(slack_rtm_output):
     return None, None
 
 # starterbot's ID as an environment variable
-BOT_ID = "U5GPQHSS2" 
-BOT_TOKEN = "xoxb-186806604886-fPXUChtMjUrCBnQqVpU7wl36"
+BOT_ID = "xxxxxxxxx" 
+BOT_TOKEN = "xxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx"
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
 EXAMPLE_COMMAND = "schedule"
